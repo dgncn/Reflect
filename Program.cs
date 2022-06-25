@@ -7,6 +7,7 @@ var typeName = "Reflect.F1Car";
 try
 {
     var car = Activator.CreateInstance(typeof(F1Car)); // parametresiz nesne üretir hata fırlatır throws
+
     var car2 = Activator.CreateInstance(assemblyName, typeName); // parametresiz nesne üretir hata fırlatır throws
 }
 catch (Exception)
